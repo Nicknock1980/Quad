@@ -25,7 +25,7 @@ GLuint uniID;
 
 // Vertices coordinates
 GLfloat vertices[] =
-{ //               COORDINATES                  /     COLORS           //
+{	//               COORDINATES                  /     COLORS           //
 	-0.5f, -0.5f * float(sqrt(3)) * 1 / 3, 0.0f,     0.8f, 0.3f,  0.02f, // Lower left corner
 	 0.5f, -0.5f * float(sqrt(3)) * 1 / 3, 0.0f,     0.8f, 0.3f,  0.02f, // Lower right corner
 	 0.0f,  0.5f * float(sqrt(3)) * 2 / 3, 0.0f,     1.0f, 0.6f,  0.32f, // Upper corner
@@ -97,7 +97,7 @@ void Setup()
 	// Maps the range of window size to ndc (-1 -> to 1)
 	glViewport(0, 0, 800, 800);
 
-	shaderProgram = ShaderLoader::CreateProgram("Resources/Shaders/FixedTriangle.vs", "Resources/Shaders/FixedColor.fs");
+	shaderProgram = ShaderLoader::CreateProgram("Resources/Shaders/Quad.vs", "Resources/Shaders/Color.fs");
 
 	// Generate the VAO and VBO and EBO
 	VAO vao = VAO(VAOID);

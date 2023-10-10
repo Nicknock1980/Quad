@@ -165,6 +165,10 @@
     <ClCompile Include="VAO.cpp" />
     <ClCompile Include="VBO.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\Color.fs" />
+    <None Include="Resources\Shaders\Quad.vs" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

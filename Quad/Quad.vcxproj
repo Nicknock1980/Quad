@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="EBO.h" />
+    <ClInclude Include="OpenGL.h" />
     <ClInclude Include="OpenGLObject.h" />
     <ClInclude Include="ShaderLoader.h" />
     <ClInclude Include="VAO.h" />
@@ -159,6 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EBO.cpp" />
+    <ClCompile Include="OpenGL.cpp" />
     <ClCompile Include="OpenGLObject.cpp" />
     <ClCompile Include="ShaderLoader.cpp" />
     <ClCompile Include="Source.cpp" />
